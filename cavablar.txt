@@ -1,0 +1,37 @@
+Azerbaycan þriftlerini destekleyen 10 eded font ailesi.
+1)Amydor
+2)Anabelle
+3)Antithesis
+4)Aphrodite
+5)Aracne
+6)Giger
+7)Gotham
+8)Good Vibes
+9)Graved
+10)Gothic
+Ýstifade qaydasi.
+1. hemin font eger emeliyyat sistemimizin defaultunda yoxdursa onu yüklemek.
+2. layiheni hansi qovluqda iþleyirikse oradaký font qovluðuna hemin fontu elave elemek.
+3. css hissesind? asagidaki kimi "@font-face" framesi aciriq ...
+	@font-face{
+	font-family: 'Vusal';
+	src: url("font/fontun adi");
+	}
+4. daha sonra istediyimiz yazý taglarýna font-family: "Vusal"; yazmaqla o fontu ala bilerik.
+******************************************************************
+Düzgün ve oxunaqlý CSS kodu yazmaq üçün lazým olabilecek 10 qayda.
+1. ortaq classlardan istifade etmekle kod tekrarini aradan qaldirmaq.
+2. class adlarinin duzgun secilmesi.
+3. kodlarin maksimum qisa ve mentiqi yazilmasi
+4. bezi taglarýn default xüsusiyyetlerinin xeyiri qeder iþeyaramazdir. onlardan qurtulmaq üçün hazir reset.css kodlardan istifade
+5. her hisse kod bitdikden sonra anlaþiqli comment elave etmek
+6. kodlarin mündericat siyahisinin evvelceden commentde qeyd olunmasi ela haldir.
+7. classlari ortaq xüsusiyyetine gör? siralamaq lazimdir, meselen main1{} main1 h{} kimi main1le elaqeli classlarla iþi bitirdikden sonra main2ye keçmek lazimdir.
+8. ilk önce header hisseden kodlamaða baþlayib contain, footere doðru getmek lazimdir.
+9. kodlari elifba sirasiyla yazmaq kodu daha oxunaqlý edir.
+10. yuxarýda qeyd elediyimiz xüsusiyyetlere ele yuxarýda da emel etmek yaxþi olardi :)
+****************************************************
+html cssle isleyen zaman sekillerin elave olunmasi meselesi ortaya cixir. Daha cox istifadede olan shablon sekillere iconlar deyirik ve bu iconlarin diger sekillerden ferqi ondadir ki bunlar jpg png deyil yazi formatidir, yeni css bunu sekil kimi deyil de text kimi gorur. 
+Bu kimi sebeblerden dolayi iconlar usefuldu.font awesome 4.6.3de 634 icon vardir. bu iconlarin komeyi ile css fayllarimizin hecmi az olur ve saytin yuklenme vaxti suretli olur. awesome iconlarindan localda istifade ucun hemin iconlari layiheni islediyimiz qovluqda font-awesome qovluguna yuklemeyimiz lazimdir.
+daha sonra head tagimizdan link vererek iconun yerlesdiyi qovlugu qeyd edirik ve bununla da hemi iconlardan rahat istifade ede bilerik.
+font awesome kimi bir nece icon fontlari vardir, bunlara icon--works.com , entypo.com misal gostere bilerik.
